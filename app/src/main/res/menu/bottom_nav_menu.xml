@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuHome"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/menuTask"
+        android:title="Schedule"
+        android:icon="@drawable/ic_task"/>
+    <item
+        android:id="@+id/menuTimeline"
+        android:title="Timeline"
+        android:icon="@drawable/ic_timeline"/>
+
+</menu>
