@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Ratify Mobile</string>
+    <string-array name="recent">
+        <item>Display</item>
+        <item>Create a first task</item>
+        <item>Assign task to a teammate</item>
+        <item>Log in to desktop</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

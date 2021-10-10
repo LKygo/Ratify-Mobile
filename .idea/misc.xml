@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/leeky/AndroidStudioProjects/Ratify-Mobile/app/src/main/res/layout/fragment_all_projects.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/leeky/AndroidStudioProjects/Ratify-Mobile/app/src/main/res/layout/fragment_favourites.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/leeky/AndroidStudioProjects/Ratify-Mobile/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/leeky/AndroidStudioProjects/Ratify-Mobile/app/src/main/res/layout/fragment_recents.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/leeky/AndroidStudioProjects/Ratify-Mobile/app/src/main/res/layout/fragment_tasks.xml" value="0.22" />
+        <entry key="..\:/Users/leeky/AndroidStudioProjects/Ratify-Mobile/app/src/main/res/layout/spinner_item.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/leeky/AndroidStudioProjects/RatifyMobile/app/src/main/res/drawable/ic_home_background.xml" value="0.240625" />
         <entry key="..\:/Users/leeky/AndroidStudioProjects/RatifyMobile/app/src/main/res/layout/activity_main.xml" value="0.18704710144927536" />
         <entry key="..\:/Users/leeky/AndroidStudioProjects/RatifyMobile/app/src/main/res/layout/fragment_home.xml" value="0.25" />

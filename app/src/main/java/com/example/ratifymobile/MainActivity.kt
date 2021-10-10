@@ -3,6 +3,9 @@ package com.example.ratifymobile
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import com.example.ratifymobile.fragments.HomeFragment
+import com.example.ratifymobile.fragments.TasksFragment
+import com.example.ratifymobile.fragments.TimelineFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -14,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val tasksFragment = TasksFragment()
         val timelineFragment = TimelineFragment()
 
+
         setCurrentFragment(homeFragment)
 
         findViewById<BottomNavigationView>(R.id.bottomNavigationView).setOnNavigationItemSelectedListener {
@@ -24,6 +28,8 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+
+
 
 //        findViewById<BottomNavigationView>(R.id.bottomNavigationView).getorCreateBadge(R.id.menuTask).apply {
 //            number = 3
