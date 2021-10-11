@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Ratify Mobile</string>
     <string-array name="recent">
-        <item>Display</item>
+        <item>View tasks</item>
         <item>Create a first task</item>
         <item>Assign task to a teammate</item>
         <item>Log in to desktop</item>

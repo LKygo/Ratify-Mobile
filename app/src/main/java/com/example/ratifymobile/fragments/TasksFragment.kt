@@ -39,9 +39,16 @@ class TasksFragment : Fragment(R.layout.fragment_tasks) {
                     id: Long
                 ) {
 
-                    val selected = adapterView?.getItemAtPosition(position).toString()
-                    Toast.makeText(context, "$selected was selected",
-                    Toast.LENGTH_SHORT).show()
+                    if (adapterView != null) if(adapterView.getItemAtPosition(position).equals("View tasks")) {
+                        //do nothing
+                    }
+                    else{
+                        val selected = adapterView.getItemAtPosition(position).toString()
+                        Toast.makeText(context, "$selected was selected",
+                            Toast.LENGTH_SHORT).show()
+                    }
+
+
                 }
 
                 override fun onNothingSelected(adapterView: AdapterView<*>?) {

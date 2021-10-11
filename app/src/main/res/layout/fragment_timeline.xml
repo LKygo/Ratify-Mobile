@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,14 +7,69 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/txvTimelineFragment"
+        android:id="@+id/txvTimelineHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Timeline fragment"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="My Tasks"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txvProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txvTimelineHeading"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="Project: Create First Task" />
+
+    <ProgressBar
+        android:id="@+id/prgBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txvProject"
+        android:layout_marginStart="8dp"
+/>
+    <TextView
+        android:id="@+id/txvProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/prgBar"
+        android:textSize="10sp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/prgBar"
+        tools:text="20%" />
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prgBar"
+        android:layout_alignStart="@+id/prgBar"
+        app:srcCompat="@drawable/ic_account" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="is working on it"
+        android:layout_toEndOf="@+id/imgProfile"
+        android:layout_alignTop="@+id/imgProfile"
+        android:layout_marginStart="12dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
+        android:text="All company activity will appear here. Check in later to see more"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
+

@@ -7,7 +7,7 @@
         android:icon="@drawable/ic_home"/>
     <item
         android:id="@+id/menuTask"
-        android:title="Schedule"
+        android:title="Tasks"
         android:icon="@drawable/ic_task"/>
     <item
         android:id="@+id/menuTimeline"
